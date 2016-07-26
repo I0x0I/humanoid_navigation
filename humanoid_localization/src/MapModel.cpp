@@ -272,7 +272,7 @@ OccupancyMap::OccupancyMap(ros::NodeHandle* nh)
 
 // Groovy:
 #if ROS_VERSION_MINIMUM(1, 9, 0)
-  m_map.reset(octomap_msgs::binaryMsgToMap(resp.map));
+  m_map.reset((octomap::OcTree*)octomap_msgs::binaryMsgToMap(resp.map));
 #else  // Fuerte:
   m_map.reset(octomap_msgs::binaryMsgDataToMap(resp.map.data));
 #endif
