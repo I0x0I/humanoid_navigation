@@ -27,7 +27,6 @@
   <build_depend>map_server</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
-  <build_depend>sbpl</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>visualization_msgs</build_depend>
 
@@ -38,7 +37,6 @@
   <run_depend>map_server</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>rospy</run_depend>
-  <run_depend>sbpl</run_depend>
   <run_depend>tf</run_depend>
   <run_depend>visualization_msgs</run_depend>
 

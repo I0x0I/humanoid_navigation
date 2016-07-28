@@ -12,10 +12,8 @@
   <url>http://ros.org/wiki/gridmap_2d</url>
   
   <build_depend>nav_msgs</build_depend>
-  <build_depend>opencv2</build_depend>
 
   <run_depend>nav_msgs</run_depend>
-  <run_depend>opencv2</run_depend>
 
   <buildtool_depend>catkin</buildtool_depend>
 </package>
