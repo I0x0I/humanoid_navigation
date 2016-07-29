@@ -1,0 +1,41 @@
+- git:
+    local-name: humanoid_msgs
+    uri: https://github.com/ahornung/humanoid_msgs
+    version: master
+- git:
+    local-name: humanoid_navigation
+    uri: https://github.com/i0x0i/humanoid_navigation
+    version: indigo-devel
+- git:
+    local-name: sbpl
+    uri: https://github.com/sbpl/sbpl
+    version: master
+- git:
+    local-name: pcl_msgs
+    uri: https://github.com/ros-perception/pcl_msgs
+    version: indigo-devel
+- git:
+    local-name: pcl_ros
+    uri: https://github.com/ros-gbp/perception_pcl-release.git 
+    version: debian/kinetic/pcl_ros
+- git:
+    local-name: pcl_conversions
+    uri: https://github.com/ros-gbp/pcl_conversions-release.git
+    version: debian/kinetic/pcl_conversions
+- git:
+    local-name: octomap_ros
+    uri: https://github.com/ros-gbp/octomap_ros-release.git
+    version: debian/indigo/octomap_ros
+- git:
+    local-name: octomap_msgs
+    uri: https://github.com/ros-gbp/octomap_msgs-release.git
+    version: debian/indigo/octomap_msgs
+- git:
+    local-name: map_server
+    uri: https://github.com/ros-gbp/navigation-release.git
+    version: debian/indigo/map_server
+- git:
+    local-name: tf2_eigen
+    uri: https://github.com/ros-gbp/geometry2-release.git
+    version: debian/kinetic/tf2_eigen
+
