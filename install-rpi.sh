@@ -8,4 +8,4 @@ wstool init -j8 src indigo-desktop-wet.rosinstall
 mkdir src/sbpl/build && cd src/sbpl/build
 cmake .. && make && make install
 cd ../../../
-./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --make-args -j -l
+./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --make-args -j1 -l1
