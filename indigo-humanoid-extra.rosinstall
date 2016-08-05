@@ -7,10 +7,6 @@
     uri: https://github.com/i0x0i/humanoid_navigation
     version: indigo-devel
 - git:
-    local-name: sbpl
-    uri: https://github.com/sbpl/sbpl
-    version: master
-- git:
     local-name: pcl_msgs
     uri: https://github.com/ros-perception/pcl_msgs
     version: indigo-devel
@@ -30,6 +26,10 @@
     local-name: octomap_msgs
     uri: https://github.com/ros-gbp/octomap_msgs-release.git
     version: debian/indigo/octomap_msgs
+- git:
+    local-name: octomap_mapping
+    uri: https://github.com/OctoMap/octomap_mapping.git
+    version: indigo-devel
 - git:
     local-name: map_server
     uri: https://github.com/ros-gbp/navigation-release.git
